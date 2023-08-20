@@ -1,0 +1,31 @@
+body
+{
+    background-color:bisque;
+    text-align: center;
+    display:flexbox;
+}
+.calculator
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+.display
+{
+    grid-column: 1/ span 4;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+.btn
+{
+    padding: 10px;
+    margin: 2px;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    background-color: aquamarine;
+}

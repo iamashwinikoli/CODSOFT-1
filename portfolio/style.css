@@ -1,0 +1,35 @@
+body
+{
+    text-align: center;
+    margin:0px;
+}
+header
+{
+    background-color:cadetblue;
+    padding: 5% ;
+}
+nav
+{
+    background-color: black;
+    text-align: left;
+    padding: 14px 20px;
+}
+nav a
+{
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.clip-circle
+{
+    clip-path: circle();
+    width:150px;
+    height:150px;
+}
+footer
+{
+    background-color: wheat;
+    padding: 14px 20px;
+    margin: 0px;
+    
+}

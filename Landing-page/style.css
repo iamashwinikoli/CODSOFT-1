@@ -1,0 +1,58 @@
+body
+{
+    margin:0px;
+    height: 50%;
+    padding: 0px;
+    overflow:hidden;
+}
+header
+{
+    padding: 40px;
+    text-align: left;
+}
+h1,h3,h6
+{
+    color:aqua;
+    text-align: left;
+    padding: 25px;
+}
+h6
+{
+    color: white;
+}
+h6 a
+{
+    color:blue;
+}
+.bg-img
+{
+    background-image:url("images/spotify music.webp");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    position: absolute;
+  }
+.nav {
+    overflow: hidden;
+  }
+  
+/*link bar*/
+.nav a {
+    color:brown;
+    text-align: right;
+    padding: 5px;
+    font-size: 17px;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-align:right;
+}
+button
+{
+    margin: 5% 3% 5% 0;
+}
